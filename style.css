@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+}
+
+.item{
+    background-color: turquoise;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border: solid tomato;
+    animation-name: class360;
+    animation-duration: 4s;
+    animation-delay: 2px;
+    position: relative;
+    animation-direction: reverse;
+    animation-timing-function: ease-in;
+}
+@keyframes class360{
+    0%{
+        background-color: #508b65;
+        left: 0;
+        top: 0;
+    }
+    25%{
+        background-color: #1b5b6b;
+        left: 300px;
+        top: 0;
+    }
+    50%{
+        background-color: #0b1853;
+        left: 300px;
+        top: 300px;
+    }
+    75%{
+        background-color: #220f55;
+        left: 0;
+        top: 300px;
+    }
+    100%{
+        background-color: #0e0625;
+        left: 0;
+        top: 0;
+    }
+}
